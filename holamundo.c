@@ -1,6 +1,15 @@
-#include <stdio.h>
+
+/*
+funcion que retorna suma de dos numeros
+*/
+int suma(int a, int b);
 
 int main(void){
-  printf("Hola Mundo\n");
+ 
   return 0; 
+}
+
+int suma(int a, int b){
+  int c=a+b;
+  return c;
 }
